@@ -1,0 +1,16 @@
+# system info qsys_files on 2023.01.02.08:22:51
+system_info:
+name,value
+DEVICE,5CEBA4F23C7
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1672663971
+#
+#
+# Files generated for qsys_files on 2023.01.02.08:22:51
+files:
+filepath,kind,attributes,module,is_top
+qsys_files/simulation/qsys_files.v,VERILOG,,qsys_files,true
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module

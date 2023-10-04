@@ -1,0 +1,62 @@
+Info: Starting: Create simulation model
+Info: ip-generate --project-directory=D:/Okul/Homework/331/ --output-directory=D:/Okul/Homework/331/qsys_files/simulation/ --file-set=SIM_VERILOG --report-file=html:D:/Okul/Homework/331/qsys_files.html --report-file=sopcinfo:D:/Okul/Homework/331/qsys_files.sopcinfo --report-file=csv:D:/Okul/Homework/331/qsys_files.csv --report-file=spd:D:/Okul/Homework/331/qsys_files.spd --report-file=sip:D:/Okul/Homework/331/qsys_files/simulation/qsys_files.sip --report-file=cmp:D:/Okul/Homework/331/qsys_files.cmp --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CEBA4F23C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=D:/Okul/Homework/331/qsys_files.qsys
+Progress: Loading 331/qsys_files.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys_files: Generating qsys_files "qsys_files" for SIM_VERILOG
+Info: pipeline_bridge_swap_transform: After transform: 1 modules, 0 connections
+Info: No custom instruction connections, skipping transform 
+Info: qsys_files: Done "qsys_files" with 1 modules, 1 files, 238 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=D:/Okul/Homework/331/qsys_files.spd --output-directory=D:/Okul/Homework/331/qsys_files/simulation/
+Info: Doing: ip-make-simscript --spd=D:/Okul/Homework/331/qsys_files.spd --output-directory=D:/Okul/Homework/331/qsys_files/simulation/
+Info: Generating the following file(s) for MODELSIM simulator in D:/Okul/Homework/331/qsys_files/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in D:/Okul/Homework/331/qsys_files/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in D:/Okul/Homework/331/qsys_files/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in D:/Okul/Homework/331/qsys_files/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: Generating the following file(s) for RIVIERA simulator in D:/Okul/Homework/331/qsys_files/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=D:/Okul/Homework/331/ --output-directory=D:/Okul/Homework/331/qsys_files/ --report-file=bsf:D:/Okul/Homework/331/qsys_files.bsf --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CEBA4F23C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=D:/Okul/Homework/331/qsys_files.qsys
+Progress: Loading 331/qsys_files.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=D:/Okul/Homework/331/ --output-directory=D:/Okul/Homework/331/qsys_files/synthesis/ --file-set=QUARTUS_SYNTH --report-file=html:D:/Okul/Homework/331/qsys_files.html --report-file=sopcinfo:D:/Okul/Homework/331/qsys_files.sopcinfo --report-file=cmp:D:/Okul/Homework/331/qsys_files.cmp --report-file=qip:D:/Okul/Homework/331/qsys_files/synthesis/qsys_files.qip --report-file=svd --report-file=regmap:D:/Okul/Homework/331/qsys_files/synthesis/qsys_files.regmap --report-file=debuginfo:D:/Okul/Homework/331/qsys_files/synthesis/qsys_files.debuginfo --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CEBA4F23C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=D:/Okul/Homework/331/qsys_files.qsys --language=VERILOG
+Progress: Loading 331/qsys_files.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys_files: Generating qsys_files "qsys_files" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 1 modules, 0 connections
+Info: No custom instruction connections, skipping transform 
+Info: qsys_files: Done "qsys_files" with 1 modules, 1 files, 238 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

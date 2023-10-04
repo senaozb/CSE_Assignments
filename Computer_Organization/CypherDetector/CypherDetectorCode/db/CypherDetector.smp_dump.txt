@@ -1,0 +1,11 @@
+
+State Machine - |CypherDetectorTB|CypherDetector:cd0|control:c0|current_state
+Name current_state.COMP1 current_state.COMP0 current_state.SUM current_state.EMPTY current_state.CHECK current_state.DECIDE current_state.READ current_state.IDLE 
+current_state.IDLE 0 0 0 0 0 0 0 0 
+current_state.READ 0 0 0 0 0 0 1 1 
+current_state.DECIDE 0 0 0 0 0 1 0 1 
+current_state.CHECK 0 0 0 0 1 0 0 1 
+current_state.EMPTY 0 0 0 1 0 0 0 1 
+current_state.SUM 0 0 1 0 0 0 0 1 
+current_state.COMP0 0 1 0 0 0 0 0 1 
+current_state.COMP1 1 0 0 0 0 0 0 1 

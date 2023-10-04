@@ -1,0 +1,11 @@
+set_global_assignment -entity "qsys_files" -library "qsys_files" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "qsys_files" -library "qsys_files" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "qsys_files" -library "qsys_files" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "qsys_files" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../qsys_files.sopcinfo"]
+set_global_assignment -entity "qsys_files" -library "qsys_files" -name SLD_INFO "QSYS_NAME qsys_files HAS_SOPCINFO 1 GENERATION_ID 1672663974"
+set_global_assignment -library "qsys_files" -name MISC_FILE [file join $::quartus(qip_path) "../../qsys_files.cmp"]
+set_global_assignment -library "qsys_files" -name SLD_FILE [file join $::quartus(qip_path) "qsys_files.debuginfo"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "qsys_files" -name MISC_FILE [file join $::quartus(qip_path) "../../qsys_files.qsys"]
+
+set_global_assignment -library "qsys_files" -name VERILOG_FILE [file join $::quartus(qip_path) "qsys_files.v"]

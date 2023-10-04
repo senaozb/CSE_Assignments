@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at control.v(5): object "read" differs only in case from object "READ" in the same scope
+Info (10281): Verilog HDL Declaration information at control.v(8): object "check" differs only in case from object "CHECK" in the same scope

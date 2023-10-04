@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="qsys_files/simulation/qsys_files.v" type="VERILOG" />
+ <topLevel name="qsys_files" />
+ <deviceFamily name="cyclonev" />
+</simPackage>

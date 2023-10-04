@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/Okul/Homework/331 {D:/Okul/Homework/331/CypherDetector.v}
+vlog -vlog01compat -work work +incdir+D:/Okul/Homework/331 {D:/Okul/Homework/331/control.v}
+vlog -vlog01compat -work work +incdir+D:/Okul/Homework/331 {D:/Okul/Homework/331/datapath.v}
+vlog -vlog01compat -work work +incdir+D:/Okul/Homework/331 {D:/Okul/Homework/331/CypherDetectorTB.v}
+

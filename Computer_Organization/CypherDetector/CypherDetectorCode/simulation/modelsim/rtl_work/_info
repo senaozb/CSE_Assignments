@@ -1,0 +1,107 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Okul\Homework\331\BonusHW\simulation\modelsim
+vcontrol
+I?kGXjX4<XJg?fk<SGQM=>3
+VQRG>gcD7FH`nE`?CL>@FP1
+Z1 dD:\Okul\Homework\331\BonusHW\simulation\modelsim
+w1672676943
+8D:/Okul/Homework/331/BonusHW/control.v
+FD:/Okul/Homework/331/BonusHW/control.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/Okul/Homework/331/BonusHW -O0
+!i10b 1
+!s100 `zj0?@NQbQ>1gC?WFOi4^2
+!s85 0
+!s108 1672747570.991000
+!s107 D:/Okul/Homework/331/BonusHW/control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Okul/Homework/331/BonusHW|D:/Okul/Homework/331/BonusHW/control.v|
+!s101 -O0
+vCypherDetector
+Ic7c<YhBA4<8NS@61[_f9M2
+V9R_QCWiz7W9QTal6af9mj3
+R1
+Z5 w1672741493
+Z6 8D:/Okul/Homework/331/BonusHW/CypherDetector.v
+Z7 FD:/Okul/Homework/331/BonusHW/CypherDetector.v
+L0 1
+R2
+r1
+31
+Z8 !s108 1672747570.917000
+Z9 !s107 D:/Okul/Homework/331/BonusHW/CypherDetector.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Okul/Homework/331/BonusHW|D:/Okul/Homework/331/BonusHW/CypherDetector.v|
+R3
+R4
+n@cypher@detector
+!i10b 1
+!s100 Pmg7V9EIIDaNWGSCbD>3N1
+!s85 0
+!s101 -O0
+vCypherDetectorTB
+!i10b 1
+!s100 MSoAl2BC^E41e`Z23DAX22
+I`MdnV[clMGelJf[E2J=1i0
+VJkThC77K1SEFiIh^zdLQO2
+R1
+w1672741708
+8D:/Okul/Homework/331/BonusHW/CypherDetectorTB.v
+FD:/Okul/Homework/331/BonusHW/CypherDetectorTB.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1672747571.147000
+!s107 D:/Okul/Homework/331/BonusHW/CypherDetectorTB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Okul/Homework/331/BonusHW|D:/Okul/Homework/331/BonusHW/CypherDetectorTB.v|
+!s101 -O0
+R3
+R4
+n@cypher@detector@t@b
+vdatapath
+I<Z;7McEiYBQ[E0IV57[0R2
+V2E=ccfN7?YN;Ya8k^`abO3
+R1
+w1672678578
+8D:/Okul/Homework/331/BonusHW/datapath.v
+FD:/Okul/Homework/331/BonusHW/datapath.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 :OeOGC4DDaW<`BZIMYkAJ1
+!s85 0
+!s108 1672747571.078000
+!s107 D:/Okul/Homework/331/BonusHW/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Okul/Homework/331/BonusHW|D:/Okul/Homework/331/BonusHW/datapath.v|
+!s101 -O0
+vreversed
+I5XGGFSPNKcd_d4o7@QdG]1
+VLe:N4>S9OiT;H[:Bo`j9a2
+R1
+R5
+R6
+R7
+L0 48
+R2
+r1
+31
+R8
+R9
+R10
+R3
+R4
+!i10b 1
+!s100 =eQ?D]JzbkCHIGgWeoESz3
+!s85 0
+!s101 -O0
